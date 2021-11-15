@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+html,
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+  background: url(/bg-intro-desktop.png) rgb(209, 88, 112);
+}
+.navbar{
+  position: fixed;
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 2px 2px 5px rgb(151, 65, 65);
+    justify-content: flex-end;
+    background-color: rgb(250, 174, 189);
+  }
+  .nav-link{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 1vmax;
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    color: white;
+    background-color: rgb(189, 110, 126);
+    transition: 0.3s;
+  }
+  .nav-link:hover{
+    background-color: rgb(136, 57, 73);
+  }
+ 
+  .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   text-align: center;
+  }
+  .slide1{
+    height: 100vh;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+   
+  }
+  .slide1 >h1{
+    left: 0;
+    right: 0;
+    top: 4vmax;
+    position: absolute;
+    color: white;
+    font-size: 3vmax;
+  }
+  .icon-list{
+    padding: 0;
+    position: absolute;
+    top: 10vmax;
+    left: 0;
+    right: 0;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    
+  }
+  .icon{
+   
+    padding: 1vmax;
+    color: white;
+    font-size: 1.2vmax;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+  }
+  .logo:hover{
+    border-radius: 100%;
+    box-shadow:
+    0 0 5px 2px rgb(255, 255, 255);
+   transform: scale(150%);
+  }
+
+  .logo{
+    border: 1px solid white;
+    transition: 0.3s;
+    margin-bottom: 5px;
+    border-radius: 100%;
+    width: 2vmax;
+  }
+  .prices{
+    
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+  }
+  .option{
+    box-shadow: 2px 4px 10px black;
+    margin: 0 5rem 0 5rem;
+    border-radius: 5px;
+    display: flex; text-align: center;
+    flex-direction: column;
+    background: url(/bg-intro-desktop.png) rgb(175, 49, 74);
+  }
+  .option>h2{
+    margin: 0;
+    text-align: center;
+    font-size: 1.4vmax;
+    background-color: rgb(255, 116, 116);
+  }
+ .option>p{
+   font-size: 1vmax;
+   text-align: start;
+   padding: 10px;
+   margin: 0;
+ }
